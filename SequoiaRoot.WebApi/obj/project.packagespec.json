@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Sanlam\\RiderProjects\\Sequoia Root\\SequoiaRoot.WebApi\\SequoiaRoot.WebApi.csproj",
+    "projectName": "SequoiaRoot.WebApi",
+    "projectPath": "C:\\Users\\Sanlam\\RiderProjects\\Sequoia Root\\SequoiaRoot.WebApi\\SequoiaRoot.WebApi.csproj",
+    "outputPath": "C:\\Users\\Sanlam\\RiderProjects\\Sequoia Root\\SequoiaRoot.WebApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\Sanlam\\RiderProjects\\Sequoia Root\\SequoiaRoot.ViewModel\\SequoiaRoot.ViewModel.csproj": {
+            "projectPath": "C:\\Users\\Sanlam\\RiderProjects\\Sequoia Root\\SequoiaRoot.ViewModel\\SequoiaRoot.ViewModel.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
